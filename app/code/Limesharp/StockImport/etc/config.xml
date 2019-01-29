@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <limesharp>
+            <stockimport>
+                <cron_active>1</cron_active>
+                <cron_schedule>*/10 * * * *</cron_schedule>
+            </stockimport>
+        </limesharp>
+    </default>
+</config>
