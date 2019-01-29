@@ -16,7 +16,7 @@ class Import {
     protected $logger;
 
     /**
-     * Object Manager
+     * Limesharp Stock Import Logic
      *
      * @var \Limesharp\StockImport\Helper\Import
      */
