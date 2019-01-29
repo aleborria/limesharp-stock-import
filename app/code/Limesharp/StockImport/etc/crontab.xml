@@ -1,6 +1,12 @@
 <?xml version="1.0"?>
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Cron:etc/crontab.xsd">
     <group id="default">
+        <job name="limesharp_stockimport_test" instance="Limesharp\StockImport\Cron\Import" method="execute">
+            <config_path>limesharp/stockimport/cron_schedule</config_path>
+        </job>
+    </group>
+
+    <group id="limesharp">
         <job name="limesharp_stockimport" instance="Limesharp\StockImport\Cron\Import" method="execute">
             <config_path>limesharp/stockimport/cron_schedule</config_path>
         </job>
